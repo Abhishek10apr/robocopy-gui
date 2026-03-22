@@ -1,0 +1,92 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  }
+
+/* Body */
+body {
+background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+color: #ffffff;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Container */
+.container {
+width: 400px;
+padding: 25px;
+border-radius: 15px;
+background: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(10px);
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Title */
+h1 {
+text-align: center;
+margin-bottom: 20px;
+font-size: 22px;
+}
+
+/* Labels */
+label {
+display: block;
+margin-bottom: 5px;
+font-size: 14px;
+}
+
+/* Inputs */
+input {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border-radius: 8px;
+border: none;
+outline: none;
+background: #2f2f4f;
+color: #fff;
+}
+
+/* Button */
+button {
+width: 100%;
+padding: 12px;
+border: none;
+border-radius: 8px;
+background: #6c5ce7;
+color: white;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+background: #4834d4;
+}
+
+/* Output box */
+.output {
+margin-top: 15px;
+padding: 10px;
+height: 120px;
+overflow-y: auto;
+background: #1a1a2e;
+border-radius: 8px;
+font-size: 13px;
+}
+
+/* Scrollbar */
+.output::-webkit-scrollbar {
+width: 6px;
+}
+
+.output::-webkit-scrollbar-thumb {
+background: #6c5ce7;
+border-radius: 10px;
+}
